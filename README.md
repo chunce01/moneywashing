@@ -1,5 +1,4 @@
 # moneywashing
- Money washing script
 
  Money washing script utilizing QB-Target and a Ped.
 
@@ -10,7 +9,7 @@ Config.WashTime allows you to define in minutes the time till bills are cleaned.
 Money can be stolen by other player requiring players to protect Johnny until he is done cleaning.
 
 
-Required:
+## Required:
 QBCore - https://github.com/qbcore-framework
 QB-Target - https://github.com/BerkieBb/qb-target
 
