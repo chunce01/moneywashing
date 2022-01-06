@@ -20,6 +20,7 @@ AddEventHandler("moneywashing:SellItems", function(data)
         if busy == false then
             Player.Functions.AddMoney('cash', money)
             TriggerClientEvent('QBCore:Notify', src, "Here is your $ "..money.. "", 'success')
+            money = 0
         else
             TriggerClientEvent('QBCore:Notify', src, "Yo comeback when its ready, I got other shit to do.", 'error')
 			print(timer)
